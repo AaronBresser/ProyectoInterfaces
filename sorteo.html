@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="Bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <title>Formula 1 · Sorteos</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top" style="background-color: black;">
+            <div class="container">
+            <a class="navbar-brand" href="home.html"><img src="Imagenes/f1.png" alt="" width="115" height="70"></a>
+    </header>
+    <br><br><br>
+    <div class="container mt-5">
+        <h1>Introduce tus datos para participar</h1>
+        <form class="row g-3">
+            <div class="col-md-6">
+                <label for="name" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="col-md-6">
+                <label for="lastname" class="form-label">Apellidos</label>
+                <input type="text" class="form-control" id="lastname" required>
+            </div>
+            <div class="col-md-8">
+                <label for="emailInfo" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="emailInfo" required>
+            </div>
+            <div class="col-md-4">
+                <label for="phone" class="form-label">Número de teléfono</label>
+                <input type="text" class="form-control" id="phone" placeholder="+34 213 54 23 43" required>
+            </div>
+            <div class="col-md-12">
+                <label for="comment" class="form-label">Cuéntanos, ¿por qué participas?</label>
+                <textarea class="form-control" id="comment" rows="3" required></textarea>
+            </div>
+            <div class="col-md-12">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+        </form>
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-dark text-muted footer fixed-bottom">
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            <p style="color: white;"><b>Bootstrap5</b></p>
+          <hr>
+            Aaron Bresser · 2023
+        </div>
+      </footer>
+    <script src="Bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
